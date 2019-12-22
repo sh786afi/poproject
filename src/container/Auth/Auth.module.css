@@ -1,0 +1,47 @@
+.mainAuth {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(82, 87, 81, 0.801),
+      rgba(41, 48, 46, 0.725)
+    ),
+    url("../../assets/images/room.jpg");
+  background-size: cover;
+  background-position: top;
+  box-sizing: border-box;
+}
+.Auth {
+  width: 500px;
+  height: auto;
+  padding: 40px;
+  margin: auto;
+  background: linear-gradient(
+    to right,
+    rgba(11, 11, 29, 0.712),
+    rgba(11, 11, 17, 0.4)
+  );
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 4px 2px 3px #ccc;
+  border: 1px solid #eee;
+}
+.Auth h1 {
+  color: #ffffff;
+}
+
+.forgotPassword {
+  float: left;
+  display: block;
+}
+.forgotPassword a {
+  text-decoration: none;
+  display: block;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.loginWithOtp {
+  margin: 40px;
+}
